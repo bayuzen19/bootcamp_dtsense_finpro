@@ -1,0 +1,44 @@
+# Global ignores (applies to all folders)
+*.pyc
+*.pyo
+__pycache__/
+*.env
+*.log
+*.DS_Store
+*.tmp
+*.swp
+*.bak
+*.orig
+*.lock
+*.zip
+*.tar
+*.gz
+*.rar
+*.jpeg
+*.jpg
+*.png
+coverage/
+*.lcov
+coverage-final.json
+
+# Backend-specific ignores
+/backend/__pycache__/
+/backend/*.pt
+/backend/*.env
+/backend/*.log
+/backend/*.jpeg
+/backend/*.jpg
+/backend/instance/
+/backend/.ipynb_checkpoints/
+/backend/*.db
+
+# Frontend-specific ignores
+/frontend/node_modules/
+/frontend/build/
+/frontend/coverage/
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/*.lock
+/frontend/*.cache
+/frontend/dist/

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,3 +22,49 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Global ignores (applies to all folders)
+*.pyc
+*.pyo
+__pycache__/
+*.env
+*.log
+*.DS_Store
+*.tmp
+*.swp
+*.bak
+*.orig
+*.lock
+*.zip
+*.tar
+*.gz
+*.rar
+*.jpeg
+*.jpg
+*.png
+coverage/
+*.lcov
+coverage-final.json
+
+# Backend-specific ignores
+/backend/__pycache__/
+/backend/*.pt
+/backend/*.env
+/backend/*.log
+/backend/*.jpeg
+/backend/*.jpg
+/backend/instance/
+/backend/.ipynb_checkpoints/
+/backend/*.db
+
+# Frontend-specific ignores
+/frontend/node_modules/
+/frontend/build/
+/frontend/coverage/
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/*.lock
+/frontend/*.cache
+/frontend/dist/
+>>>>>>> 14f224b9f5010fd509a269137699818c98b04bef

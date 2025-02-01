@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+.app-body {
+  display: flex;
+  justify-content: space-between;
+}
+.header-image {
+  width: 10%;  /* or any desired width */
+  height: auto;
+}
+
+.left-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.right-content {
+  flex: 1;
+  border-left: 1px solid #ddd;
+  padding-left: 20px;
+}
+
+.chatbox {
+  height: 70vh;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.message.user {
+  align-self: flex-end;
+  background-color: #f3f3f3;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.message.bot {
+  background-color: #e1e1e1;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px;
+}
+
+.input-area button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.warning-message {
+  background-color: #ffcccc; /* Light red background */
+  color: red;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid red;
+  border-radius: 4px;
+  text-align: center;
+}
